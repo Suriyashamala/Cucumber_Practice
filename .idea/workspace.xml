@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ecdbffe-7a07-439f-b4d7-a79ffd415010" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Story.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bdd.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/CheckoutSteps.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/test_runners/Rerunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/test_runners/TestRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/Background.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/Datatable.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/SwagLabs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +191,28 @@
       <option name="project" value="LOCAL" />
       <updated>1696311724389</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cucumber commit and push">
+      <created>1697515426777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697515426777</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cucumber commit and push">
+      <created>1697515515516</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697515515516</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cucumber commit and push">
+      <created>1697515572136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697515572136</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
