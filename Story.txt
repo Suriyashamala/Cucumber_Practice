@@ -1,0 +1,177 @@
+Story:
+As an user, I want to verify the login module in Homepage.
+So that I can login as default user “admin” and password “admin123“.
+
+Description: Verify that users can log in with valid credentials.
+Test Steps:
+a. Navigate to the login page OrangeHRM
+b. Enter a valid username and password combination
+c. Click on the "Login" button
+d. User should be navigated to dashboard
+
+Description: Verify that users cant login with invalid credentials.
+Test Steps:
+a. Navigate to the login page OrangeHRM
+b. Enter a valid username and password combination
+c. Click on the "Login" button
+d. User should not be navigated to dashboard
+
+//  BDD - Behaviour Driven Development
+Feature:
+      As an user,
+      I want to verify the login module in Homepage.
+      So that I can login as default user “admin” and password “admin123“.
+
+Scenario: Verify that users can log in with valid credentials.
+Given navigate to OrangeHRM application
+When enter a valid username 'admin' and password 'admin123'
+And click on the "Login" button
+Then user should be navigated to dashboard.
+
+Scenario: Verify that users cant log in with invalid credentials.
+Given navigate to OrangeHRM application
+When enter a valid username 'sham' and password 'sham456'
+And click on the "Login" button
+Then user should not be navigated to dashboard.
+
+Scenario outline: Verify that users can log in with valid credentials.
+Given navigate to OrangeHRM application
+When enter a valid username 'admin' and password 'admin123'
+And click on the "Login" button
+Then user should be navigated to dashboard.
+Examples:
+| username | password |
+|  admin   | admin123 |
+|  sham    | sham456  |
+
+    ------
+
+
+Story: Account holder withdraws cash
+   As an account holder,
+   I want to withdraw cash from an ATM.
+
+Description:Account has sufficient funds
+Test cases:
+  1.Account balance is "$100"
+  2.The card is valid
+  3.The machine contains enough money
+  4.The account holder requests "$50"
+  5.The ATM should dispense amount
+  6.The ATM should say there are sufficient funds.
+
+Description:Account has sufficient funds
+Test cases:
+  1.Account balance is "$100"
+  2.The card is valid
+  3.The machine contains enough money
+  4.The account holder requests "$150"
+  5.The ATM should not dispense amount
+  6.The ATM should say there are sufficient funds.
+
+//  BDD - Behaviour Driven Development
+Feature: Account holder withdraws cash
+   As an account holder,
+   I want to withdraw cash from an ATM.
+
+Scenario: Account has sufficient funds
+Given the account balance is "$100"
+And the card is valid
+And the machine contains enough money
+When the account holder requests "$50"
+Then the ATM should dispense amount
+Then the ATM should say there are sufficient funds.
+
+Scenario: Account has Insufficient funds
+Given the account balance is "$100"
+And the card is valid
+And the machine contains enough money
+when the account holder requests "$150"
+Then the ATM should not dispense any amount
+Then the ATM should say there are insufficient funds.
+
+Scenario Outline: Account has sufficient funds
+Given the account balance is "amount"
+And the card is valid
+And the machine contains enough money
+When the account holder requests "request amount"
+Then the ATM should dispense any amount
+Then the ATM should say there are sufficient funds.
+
+Examples:
+ | amount | request amount |
+ |  $100  |     $50        |
+ |  $100  |     $150       |
+
+
+--------
+
+
+Story: Swag Labs checkout step functionality
+   As a user,I want to verify checkout functionality
+   so that I can log in as default username "standard_user" and password "secret_sauce"
+
+Description: Verify that users can log in with valid credentials
+Test cases:
+1. Navigated to the Swag Labs URL
+2. Enter a valid username and password
+3. Click the "login" button
+4. Click the add to Cart button on the product page
+5. User should see the added product on the cart page
+6. Click the cart icon on the product page
+7. User should see the details of the product name,description and product price
+8. Click on the checkout button
+9. Enter the first name and last name form and postal code form
+10.Click the continue button
+11.User will be redirected to the checkout overview page
+
+Description: Verify that users can log in with invalid credentials
+Test cases:
+1. Navigated to the Swag Labs URL
+2. Enter a valid username and password
+3. Click the "login" button
+4. Username and password do not match any user in this service is displayed
+
+//  BDD - Behaviour Driven Development
+Feature:Swag Labs checkout step functionality
+    As a user,I want to verify checkout functionality
+    so that I can log in as default username "standard_user" and password "secret_sauce"
+
+Scenario: Verify that users can log in with valid credentials
+Given navigated to the Swag Labs URL
+When enter a valid username "standard_user" and password "secret_sauce"
+And click the "login"  button
+And click the add to Cart button on the product page
+Then user should see the added product on the cart page
+And click the cart icon on the product page
+Then user should see the details of the product name,description and product price
+And click on the checkout button
+When enter the first name "Sham",last name "Resh" and postal code "Cuddalore" form
+And click the continue button
+Then user will be redirected to the checkout overview page
+
+Scenario: Verify that users can log in with invalid credentials
+Given navigated to the Swag Labs URL
+When enter an invalid username "standard_user" and password "Reshamala"
+And click the "login" button
+Then username and password do not match any user in this service is displayed
+
+Scenario Outline:Verify that users can log in with valid credentials
+Given navigated to the Swag Labs URL
+When enter a valid username "username" and password "password"
+And click the "login"  button
+And click the add to Cart button on the product page
+Then user should see the added product on the cart page
+And click the cart icon on the product page
+Then user should see the details of the product name,description and product price;
+And click on the checkout button
+When enter the first name "first name",last name "last name" and postal code "postal code" form
+And click the continue button
+Then user will be redirected to the checkout overview page
+
+Examples:
+|   username    |   password    |
+| standard_user |  secret_sauce |
+| standard_user |   Reshamala   |
+
+
