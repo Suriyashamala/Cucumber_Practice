@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ecdbffe-7a07-439f-b4d7-a79ffd415010" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/CheckoutSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_runners/Rerunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Background.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Datatable.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SwagLabs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+    <list default="true" id="3ecdbffe-7a07-439f-b4d7-a79ffd415010" name="Changes" comment="Cucumber commit and push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Story.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Story.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697515572136</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Cucumber commit and push">
+      <created>1697515680019</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697515680019</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
