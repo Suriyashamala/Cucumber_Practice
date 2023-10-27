@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ecdbffe-7a07-439f-b4d7-a79ffd415010" name="Changes" comment="Cucumber commit and push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Story.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Story.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/LoginSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,30 +63,11 @@
       <recent name="test_runners" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Rerunner">
-    <configuration name="Feature: Background" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Background.feature" />
-      <option name="GLUE" value="stepDefintions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Cucumber_Project" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Background" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Feature: Datatable">
     <configuration name="Feature: Datatable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Datatable.feature" />
-      <option name="GLUE" value="stepDefintions" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber_Project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
@@ -124,6 +102,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify that users can log in with invalid credentials." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SwagLabs.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber_Project" />
+      <option name="NAME_FILTER" value="^Verify that users can log in with invalid credentials\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that users can log in with invalid credentials\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that users can log in with invalid credentials." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify that users can log in with valid credentials." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SwagLabs.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber_Project" />
+      <option name="NAME_FILTER" value="^Verify that users can log in with valid credentials\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that users can log in with valid credentials\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that users can log in with valid credentials." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Rerunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cucumber_Project" />
       <extension name="coverage">
@@ -139,28 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cucumber_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test_runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test_runners" />
-      <option name="MAIN_CLASS_NAME" value="test_runners.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Rerunner" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Feature: SwagLabs" />
         <item itemvalue="Cucumber Java.Feature: Datatable" />
-        <item itemvalue="Cucumber Java.Feature: Background" />
+        <item itemvalue="Cucumber Java.Feature: SwagLabs" />
+        <item itemvalue="Cucumber Java.Scenario: Verify that users can log in with invalid credentials." />
+        <item itemvalue="Cucumber Java.Scenario: Verify that users can log in with valid credentials." />
+        <item itemvalue="JUnit.Rerunner" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697515680019</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cucumber commit and push">
+      <created>1698296876447</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698296876447</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

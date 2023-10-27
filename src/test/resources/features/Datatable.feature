@@ -1,19 +1,3 @@
-#Feature:
-#  As an user,
-#  I want to verify the login module in Homepage.
-#  So that I can login as default user “admin” and password “admin123“.
-#
-#  Scenario Outline: Verify that users can log in with valid credentials.
-#    Given navigate to OrangeHRM application
-#    When enter a valid username '<username>' and password '<password>'
-#    And click on the "Login" button
-#    Then user should be navigated to dashboard.
-#    Examples:
-#      | username | password |
-#      |  admin   | admin123 |
-#      |  sham    |  sham456 |
-#      |  resh    |  resh123 |
-
 Feature:Swag Labs checkout step functionality
   As a user,I want to verify checkout functionality;
   so that I can log in as default username "standard_user" and password "secret_sauce"
